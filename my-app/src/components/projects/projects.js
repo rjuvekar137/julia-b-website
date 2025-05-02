@@ -1,10 +1,11 @@
 import React from "react";
 import "./projects.css";
+import IndividualProjects from "./individualProject/individualProject";
 
 const Projects = () => {
     return (
         <div className="projects">
-            <div className="projects-title">Projects</div>
+            <IndividualProjects/>
         </div>
     )
 }

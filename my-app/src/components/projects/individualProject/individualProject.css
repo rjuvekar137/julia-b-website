@@ -1,0 +1,100 @@
+.projects-title {
+    font-size: 4vw;
+    font-weight: 600;
+    margin-left: 2.5vw;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.042vw;
+    text-align: left;
+    padding-left: 1.042vw;
+    color: #000;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.blog-posts-header {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+    padding: 60px 77px 0px 80px;
+    padding-bottom: 3.125vw;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5vw;
+    border-radius: 8px;
+}
+
+.blog-content {
+    color: #000;
+
+    /* Djoda/Body 2 */
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blog-title {
+    margin-top: 0.521vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.blog-card img {
+    width: 28vw;
+    height: 23vw;
+    flex-shrink: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1.8vw;
+    color: #555;
+    text-align: center;
+}
+
+.blog-header {
+    color: #000;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1.8vw;
+}
+
+.blog-header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.833vw;
+    align-self: stretch;
+}
