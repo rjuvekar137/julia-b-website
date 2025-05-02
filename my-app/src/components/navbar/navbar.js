@@ -7,18 +7,24 @@ import "./navbar.css";
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <Link to="/" className="linkedin">
-                <img
-                    src={linkedinImg}
-                    alt="Linkedin Icon"
-                />
-            </Link>
-            <Link to="/" className="instagram">
-                <img
-                    src={instagramImg}
-                    alt="Instagram Icon"
-                />
-            </Link>
+            <div className="socials">
+                <button className="linkedin">
+                    <a href="https://www.linkedin.com/in/julia-botros/">
+                        <img
+                            src={linkedinImg}
+                            alt="Linkedin Icon"
+                        />
+                    </a>
+                </button>
+                <button className="instagram">
+                    <a href="https://www.instagram.com/my_little_things_jb/">
+                        <img
+                            src={instagramImg}
+                            alt="Instagram Icon"
+                        />
+                    </a>
+                </button>
+            </div>
 
             <div className="links">
                 <Link to="/home" className="link">

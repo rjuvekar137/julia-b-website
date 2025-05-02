@@ -1,0 +1,10 @@
+.projects {
+    display: flex;
+    margin-left: 7vw;
+    margin-top: 10vw;
+}
+
+.projects-title {
+    font-size: 4vw;
+    font-weight: 600;
+}

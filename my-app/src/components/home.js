@@ -1,17 +1,12 @@
 import React from "react";
-// import ProductPage from "./productPage/productPage";
-// import FeaturedBlogs from "./featuredBlogSection/featuredBlogSection.js";
-// import Hero3DVisOurMission from "../components/hero3dvisOurMission.js";
+import WelcomeSection from "../components/welcomeSection/welcomeSection";
+import Projects from "../components/projects/projects";
 
 const LandingPage = () => {
     return (
         <div>
-            {/*<Hero3DVisOurMission />*/}
-            {/*<TeamPage />*/}
-            {/*<ProductPage />*/}
-            {/*<Testimonials/>*/}
-            {/*<FAQ />*/}
-            {/*<FeaturedBlogs />*/}
+            <WelcomeSection/>
+            <Projects/>
         </div>
     );
 };

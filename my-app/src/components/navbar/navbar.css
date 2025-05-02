@@ -6,31 +6,48 @@
     padding: 20px 80px;
 }
 
-.logo {
-    border-radius: 32px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
+.socials {
     display: flex;
     display-flex: row;
+    gap: 11px;
 }
 
-.logo img {
+.linkedin {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.instagram {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.linkedin img {
     object-fit: contain;
     width: 2.5vw;
-    min-width: 40px;
+    min-width: 2.3vw;
     max-width: 60px;
     height: auto;
 }
 
-/*.logoText {*/
-/*    margin-left: 1vw;*/
-/*    font-size: 2.5vw;*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    color: #ECF170;*/
-/*}*/
+.instagram img {
+    object-fit: contain;
+    width: 2.5vw;
+    min-width: 2.3vw;
+    max-width: 60px;
+    height: auto;
+}
+
 
 .links {
     display: flex;
@@ -41,15 +58,6 @@
 .link {
     color: #000000;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.8vw;
     font-weight: normal;
-}
-
-.pre-order {
-    background-color: #f7f475;
-    padding: 10px 20px;
-    border-radius: 32px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
 }

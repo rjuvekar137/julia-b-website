@@ -1,0 +1,41 @@
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 67px;
+    margin-top: 2vw;
+}
+
+.hero {
+    display: flex;
+    height: 25vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.hero-image img {
+    display: flex;
+    width: 25vw;
+    height: 25vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 6.944vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-caption {
+    text-align: center;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #606060;
+    margin: 0;
+}
